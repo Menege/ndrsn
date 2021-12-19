@@ -1,10 +1,17 @@
 "use script";
 
 // //Первая задача
-// function makeObjectDeepCopy(obj){
-//     let objCopy = {...obj};
-//     return console.log(objCopy);
+// function makeObjectDeepCopy(obj) {
+//   let clone = {};
+//   for (var i in obj) {
+//     if (obj[i] != null && typeof obj[i] == "object")
+//       clone[i] = makeObjectDeepCopy(obj[i]);
+//     else clone[i] = obj[i];
+//   }
+//   return clone;
 // }
+
+
 
 // //Вторая задача
 // function selectFromInterval(arr, intervalFirst, intervalSecond) {
